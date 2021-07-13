@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[=====OPEN BROWSER=====]]>
+    </line>
+    <line>
+      <![CDATA[TESTCASE 1 :LOGIN TO BUGZILLA]]>
+    </line>
+    <line>
+      <![CDATA[RESULT:Successfully logged in bugzilla
+]]>
+    </line>
+    <line>
+      <![CDATA[TESTCASE 2:CREATING NEW BUG]]>
+    </line>
+    <line>
+      <![CDATA[RESULT:Successfully created bug in Bugzilla
+The bug id is:76958
+]]>
+    </line>
+    <line>
+      <![CDATA[TESTCASE 3:TAKING SCREENSHOT]]>
+    </line>
+    <line>
+      <![CDATA[RESULT:Successfully took screeshot
+File name is:Capture_2019-06-26 15-38-06.99.png
+]]>
+    </line>
+    <line>
+      <![CDATA[TESTCASE 4:TO SEND EMAIL BY READING CREDENTIALS FROM EXCEL]]>
+    </line>
+    <line>
+      <![CDATA[RESULT:Email Sent Successfully
+]]>
+    </line>
+    <line>
+      <![CDATA[=====BROWSER CLOSED SUCCESSFULLY=====]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11269" started-at="2019-06-26T10:07:58Z" finished-at="2019-06-26T10:08:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11269" started-at="2019-06-26T10:07:58Z" finished-at="2019-06-26T10:08:10Z">
+      <class name="TestPackage.TestNgClass">
+        <test-method status="PASS" signature="BrowserDetails()[pri:0, instance:TestPackage.TestNgClass@553f17c]" name="BrowserDetails" is-config="true" duration-ms="2605" started-at="2019-06-26T10:07:58Z" finished-at="2019-06-26T10:08:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====OPEN BROWSER=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BrowserDetails -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:TestPackage.TestNgClass@553f17c]" name="Login" duration-ms="1924" started-at="2019-06-26T10:08:01Z" finished-at="2019-06-26T10:08:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TESTCASE 1 :LOGIN TO BUGZILLA]]>
+            </line>
+            <line>
+              <![CDATA[RESULT:Successfully logged in bugzilla
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="CreatNewBug()[pri:1, instance:TestPackage.TestNgClass@553f17c]" name="CreatNewBug" duration-ms="3244" started-at="2019-06-26T10:08:03Z" finished-at="2019-06-26T10:08:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TESTCASE 2:CREATING NEW BUG]]>
+            </line>
+            <line>
+              <![CDATA[RESULT:Successfully created bug in Bugzilla
+The bug id is:76958
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreatNewBug -->
+        <test-method status="PASS" signature="ScreenShot()[pri:2, instance:TestPackage.TestNgClass@553f17c]" name="ScreenShot" duration-ms="275" started-at="2019-06-26T10:08:06Z" finished-at="2019-06-26T10:08:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TESTCASE 3:TAKING SCREENSHOT]]>
+            </line>
+            <line>
+              <![CDATA[RESULT:Successfully took screeshot
+File name is:Capture_2019-06-26 15-38-06.99.png
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ScreenShot -->
+        <test-method status="PASS" signature="Email()[pri:3, instance:TestPackage.TestNgClass@553f17c]" name="Email" duration-ms="3107" started-at="2019-06-26T10:08:06Z" finished-at="2019-06-26T10:08:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TESTCASE 4:TO SEND EMAIL BY READING CREDENTIALS FROM EXCEL]]>
+            </line>
+            <line>
+              <![CDATA[RESULT:Email Sent Successfully
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Email -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestPackage.TestNgClass@553f17c]" name="CloseBrowser" is-config="true" duration-ms="97" started-at="2019-06-26T10:08:10Z" finished-at="2019-06-26T10:08:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====BROWSER CLOSED SUCCESSFULLY=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestPackage.TestNgClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

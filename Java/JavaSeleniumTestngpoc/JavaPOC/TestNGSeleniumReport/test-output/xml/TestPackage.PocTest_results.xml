@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.349">
+  <properties />
+  
+  
+            <testcase name="TakingScreenShot" time="0.303" classname="TestPackage.PocTest" />
+                <testcase name="CreatingBug" time="3.242" classname="TestPackage.PocTest" />
+                <testcase name="SendingEmail" time="1.607" classname="TestPackage.PocTest" />
+                <testcase name="LoginToBugzilla" time="2.197" classname="TestPackage.PocTest" />
+      
+</testsuite>
